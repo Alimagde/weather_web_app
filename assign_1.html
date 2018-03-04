@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet'href="css/bootstrap.css" />
+        <link rel='stylesheet'href="style.css"/>
+        <link rel="stylesheet" href="css/font-awesome.css"/>
+        <script src="jquery-3.2.1.min.js"></script>
+        <title>Weather</title>
+    </head>
+    
+         <body>
+             <div style="background-color:cadetblue; padding: 50px; margin-bottom: 20px; font-family: fantasy; color: blueviolet; margin-top: -50px">
+                <h1 class="text-center" style="padding: 50px">Get Weather Details</h1>
+             </div>
+             <div class="text-center">
+            <input id = "weather" type ="text"  placeholder="City Name" style="width: 300px; height: 40px; background-color: black;color: red; font-family: cursive; font-size: 20px ; font-style: italic;">
+                 <br>
+                 <!--<input type="text" id="lon" placeholder="longitude" style="width: 300px; height: 40px; background-color: black;color: red; font-family: cursive; font-size: 20px ; font-style: italic;">-->
+                 <button id="curr" style="width: 300px; height: 40px; background-color: black;color: red; font-family: cursive; font-size: 20px ; font-style: italic;"> Current Weather</button>
+                 <button id="48hour" style="width: 300px; height: 40px; background-color: black;color: red; font-family: cursive; font-size: 20px ; font-style: italic;" >48Hour Weather</button>
+                 <button id="5day" style="width: 300px; height: 40px; background-color: black;color: red; font-family: cursive; font-size: 20px ; font-style: italic;">5Day Weather</button>
+                 <button id="16day" style="width: 300px; height: 40px; background-color: black;color: red; font-family: cursive; font-size: 20px ; font-style: italic;">16Day Weather</button>
+                 <button id="Historical" style="width: 300px; height: 40px; background-color: black;color: red; font-family: cursive; font-size: 20px ; font-style: italic;">Historical Weather</button>
+            </div>
+             <div id="show" style="background-color:#676760; color: #b72323; width: 100%">
+             
+             
+             </div>
+    
+            <script src="js/bootstrap.min.js"></script>
+             <script src="control.js"></script>
+        </body>
+        <footer >
+            <div class="container-fluid" id="foot">
+            <div class="row">
+                <div class="col-md-offset-1 col-md-8">
+                <h2>ABOUT THIS WEBSITE</h2>
+                <p class="lead">Created in <i class="fa fa-home fa-2x "></i> With some  <i class="fa fa-coffee fa-2x"></i></p>
+                    <span class="lead">By <span class="name">OmarGhonaim && magdi</span></span>
+                </div>
+                <div class="col-md-3" id="links">
+                <h2>My Soical Media</h2>
+                <a href="https://www.facebook.com/Omar.3abdalla"><i class="fa fa-facebook-square fa-3x"></i></a>
+                <a href="https://www.instagram.com/omar_ghonaim00/"><i class="fa fa-instagram fa-3x"></i></a>
+                <a href="https://github.com/omarghonaim"><i class="fa fa-github fa-3x"></i></a>
+                <a href="https://twitter.com/omarghonaim0"><i class="fa fa-twitter fa-3x"></i></a>
+                </div>
+                
+            </div> 
+            </div>
+            <div class="container-fluid" id="End">    
+                <p class="lead text-center">Ghonaim &copy;2017.All Rights Reversed</p>
+            </div>
+        </footer>
+
+</html>
